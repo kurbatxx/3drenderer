@@ -121,7 +121,7 @@ void draw_rect(int x, int y, int width, int height, uint32_t color) {
             int current_y = y + j;
             color_buffer[(window_width * current_y) + current_x] = color;
         }
-    }
+    } 
 }
 
 void render(void) {
