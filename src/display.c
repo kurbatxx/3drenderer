@@ -87,7 +87,6 @@ void draw_rect(int x, int y, int width, int height, uint32_t color) {
             int current_x = x + i;
             int current_y = y + j;
             draw_pixel(current_x, current_y, color);
-            // color_buffer[(window_width * current_y) + current_x] = color;
         }
     }
 }
